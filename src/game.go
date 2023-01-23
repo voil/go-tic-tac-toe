@@ -34,7 +34,7 @@ type GameInterface interface {
  * @implements GameInterface
  */
 func CreateGame() GameInterface {
-	return &Game{"WheelAndCross", nil, nil, nil}
+	return &Game{"Tic Tac Toe", nil, nil, nil}
 }
 
 /**
